@@ -155,7 +155,7 @@ header nav a {
 }
 header nav a:hover {
   text-decoration: underline;
-  color: black;
+  color: #000000;
 }
 .top-content {
   display: flex;
@@ -229,5 +229,5 @@ footer nav a {
 }
 footer nav a:hover {
   text-decoration: underline;
-  color: black;
+  color: #000000;
 }
