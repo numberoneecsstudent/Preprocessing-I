@@ -158,6 +158,7 @@ header nav a:hover {
   color: black;
 }
 .top-content {
+  width: 65.5%;
   display: flex;
   margin-top: 72px;
   justify-content: center;
@@ -183,51 +184,23 @@ header nav a:hover {
 }
 .middle-content {
   display: flex;
-  justify-content: space-evenly;
-  margin: 80px;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
 }
 .middle-content section {
   margin: 20px 2.5%;
   width: 45%;
 }
 .img {
+  width: 65%;
   display: flex;
-  justify-content: center;
   margin-top: 72px;
+  justify-content: center;
 }
 .bottom {
-  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
-.bottom .text {
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 5px;
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  align-items: center;
-  margin: 0 82px 0 0;
-}
-footer {
-  width: 100%;
-  justify-content: flex-end;
-}
-footer nav {
-  margin-top: 80px;
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 2%;
-  font-size: 14px;
-}
-footer nav a {
-  text-decoration: none;
-  color: #b0b0b0;
-}
-footer nav a:hover {
-  text-decoration: underline;
-  color: black;
+.bottom p {
+  padding-right: 20px;
 }

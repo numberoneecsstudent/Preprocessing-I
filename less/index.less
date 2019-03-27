@@ -92,10 +92,9 @@ header nav a:hover {
 
 
 .top-content {
-    width: 65.5% 
-	  display: flex;
+	display: flex;
     margin-top: 72px;
-    justify-content: flex-end;
+    justify-content: center;
 	.text-content 
   {
 	font-size: 25px;
@@ -121,8 +120,10 @@ header nav a:hover {
  
  .middle-content {
 	display: flex;
+	justify-content: space-evenly;
+	margin: 80px;
 	  flex-wrap: wrap;
-	  flex-direction: column;
+	  flex-direction: row;
 
 	  section{
 		margin: 20px 2.5%;
@@ -131,21 +132,53 @@ header nav a:hover {
 	  
 	  }
 .img{
-    width: 65%;
     display: flex;
-    margin-top: 72px;
     justify-content: center;
+    margin-top: 72px;
   
 }
 
 .bottom {
-	flex-wrap: wrap;
-	align-content: space-between;
- p{
-	 padding-right:20px;
+  display: flex;
+      
+ .text{
+	font-size: 14px;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 82px 0 0;
  }
 
 }
- 
 
+footer {
+   width: 100%;
+   justify-content: flex-end;
+	
+	nav {
+	margin-top: 80px;
+	width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
+		a {
+			text-decoration: none;
+			color: #b0b0b0;
+		}
+		
+	}
+	
+	
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
 
