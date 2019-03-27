@@ -65,8 +65,9 @@ html, body {
 /* Header Styles */
 
 header {
-    width: 100%;
+   width: 100%;
 	display: flex;
+  justify-content: flex-end;
 	
 	nav {
 		margin-top: 40px; 
@@ -92,19 +93,19 @@ header nav a:hover {
 
 
 .top-content {
-	border-top: 2px solid black; 
-	display: grid;
-  grid-template-rows:  25% 100px auto;
-  grid-gap: 1em;
+	display: flex;
+    margin-top: 72px;
+    justify-content: flex-end;
 	.text-content 
   {
-  grid-column-start: 2;
-  grid-column-end: five;
-  grid-row-start: 2;
-  grid-row-end: 3;
-    .h1{
-      font: 30px;
-    }
+	font-size: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 82px 0 0;
 	}
   
 	button {
@@ -119,17 +120,21 @@ header nav a:hover {
  }
  
  .middle-content {
-	border-top: 2px solid black; 
-	border-bottom: 2px solid black;
-	margin: 75px 0 35px 0;
-	padding: 35px 0;
-	font-size: 16px;
-	line-height: 18px;
+	display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: column;
 
-	.left 
-	{
-		display: flex;
-	
+	  section{
+		margin: 20px 2.5%;
+		width: 45%;
+	  }
+	  
+	  }
+.img{
+    display: flex;
+    margin-top: 72px;
+    justify-content: center;
+  
 }
- }
+
 
