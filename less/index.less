@@ -57,3 +57,79 @@ html, body {
     height: 100%;
 }
 
+.container {
+    width: 880px;
+    margin: auto;
+}
+
+/* Header Styles */
+
+header {
+    width: 100%;
+	display: flex;
+	
+	nav {
+		margin-top: 40px; 
+		width: 610px;
+		justify-content: space-between;
+		display: flex;
+
+		a {
+			text-decoration: none;
+			color: #b0b0b0;
+		}
+		
+	}
+	
+	
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+.top-content {
+	border-top: 2px solid black; 
+	display: grid;
+  grid-template-rows:  25% 100px auto;
+  grid-gap: 1em;
+	.text-content 
+  {
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: 2;
+  grid-row-end: 3;
+    .h1{
+      font: 30px;
+    }
+	}
+  
+	button {
+		border: 1px double black;
+		font-size: 16px;
+		background: white;
+		width: 170px;
+		height: 32px;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+ }
+ 
+ .middle-content {
+	border-top: 2px solid black; 
+	border-bottom: 2px solid black;
+	margin: 75px 0 35px 0;
+	padding: 35px 0;
+	font-size: 16px;
+	line-height: 18px;
+
+	.left 
+	{
+		display: flex;
+	
+}
+ }
+
