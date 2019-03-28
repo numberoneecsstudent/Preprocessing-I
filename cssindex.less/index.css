@@ -155,9 +155,10 @@ header nav a {
 }
 header nav a:hover {
   text-decoration: underline;
-  color: #000000;
+  color: black;
 }
 .top-content {
+  width: 65.5%;
   display: flex;
   margin-top: 72px;
   justify-content: center;
@@ -183,108 +184,23 @@ header nav a:hover {
 }
 .middle-content {
   display: flex;
-  justify-content: space-evenly;
-  margin: 80px;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
 }
 .middle-content section {
   margin: 20px 2.5%;
   width: 45%;
 }
 .img {
+  width: 65%;
   display: flex;
-  justify-content: center;
   margin-top: 72px;
+  justify-content: center;
 }
 .bottom {
-  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
-.bottom .text {
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 5px;
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  align-items: center;
-  margin: 0 82px 0 0;
-}
-footer {
-  width: 100%;
-  justify-content: flex-end;
-}
-footer nav {
-  margin-top: 80px;
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 2%;
-  font-size: 14px;
-}
-footer nav a {
-  text-decoration: none;
-  color: #b0b0b0;
-}
-.nav-mixin {
-  width: 100%;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-}
-footer nav a:hover {
-  text-decoration: underline;
-  color: #000000;
-}
-/* Tablet */
-@media (max-width: 800px) {
-  header {
-    justify-content: flex-end;
-  }
-  header nav {
-    width: 100%;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-  }
-  header a {
-    width: 100%;
-    display: block;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 20px;
-    border-bottom: 1px solid gray;
-  }
-  .img {
-    display: none;
-  }
-  .footer {
-    display: none;
-  }
-}
-@media (max-width: 500px) {
-  header {
-    justify-content: flex-end;
-  }
-  header nav {
-    width: 100%;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-  }
-  header a {
-    width: 100%;
-    display: block;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 20px;
-    border-bottom: 1px solid gray;
-  }
-  .img {
-    display: none;
-  }
-  .footer {
-    display: none;
-  }
+.bottom p {
+  padding-right: 20px;
 }
