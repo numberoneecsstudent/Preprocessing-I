@@ -187,16 +187,21 @@ footer nav a:hover {
     color: @black;
 }
 
+nav {
+	width: 100%;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+
+
 /* Tablet */
 @media (max-width: 800px) {
 	header {
 		justify-content: flex-end;
 		  
-		  nav {
-			 width: 100%;
-			 flex-direction: column;
-			 margin: 0;
-			 padding: 0;
+		.mixin-class {
+			.a();
+		}
 	  
 			  a {
 				 width: 100%;
@@ -227,11 +232,9 @@ footer nav a:hover {
 	header {
 	   justify-content: flex-end;
 		 
-		 nav {
-			width: 100%;
-			flex-direction: column;
-			margin: 0;
-			padding: 0;
+		 .mixin-class {
+			.a();
+		}
 	 
 			 a {
 				width: 100%;
@@ -255,6 +258,3 @@ footer nav a:hover {
 		 display: none;
 	 }
 	 
-
-    
-}
